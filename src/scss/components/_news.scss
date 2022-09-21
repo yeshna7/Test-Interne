@@ -1,0 +1,25 @@
+.news{
+   padding:30px;
+ 
+
+   &__title{
+  margin-top:60px;
+  margin-bottom: 40px;
+  font-size:30.47px;
+  color:$blue;
+   }
+   
+   &__desc{
+    font-size:13.54px;
+    margin-bottom: 45px;
+    color:$grey;
+   }
+
+   &__info{
+    color:$blue;  
+    font-size:14px;     
+}
+}
+.latest-News{
+    background-color: $black;
+}

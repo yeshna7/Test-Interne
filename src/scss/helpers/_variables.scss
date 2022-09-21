@@ -1,0 +1,35 @@
+$colors: (
+  white: #ffffff,
+  black: #000000,
+  red: #ff0000,
+  blue:#4ec1e0,
+  grey:#959595
+);
+
+$size: ( 
+  input-btn-radius: 35px,
+  textarea-btn-radius: 10px
+);
+
+$font-weight: (
+  extra-light: 200,
+  light: 300,
+  regular: 400,
+  medium: 500,
+  semi-bold: 600,
+  bold: 700,
+  extra-bold: 800
+);
+
+ 
+$input-btn-radius: map-get($size, input-btn-radius);
+$textarea-btn-radius: map-get($size, textarea-btn-radius);
+
+$white: map-get($colors, white);
+$black: map-get($colors, black);
+$red: map-get($colors, red);
+$blue: map-get($colors, blue);
+$grey: map-get($colors, grey);
+$regular: map-get($font-weight, regular);
+
+$Open-sans: 'Open Sans';

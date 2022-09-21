@@ -1,0 +1,33 @@
+header {
+    background: $black;
+    
+}
+
+.register {
+    display: flex;
+    justify-content: flex-end;
+    
+    li {
+    color:$white;
+    list-style: none;
+    display:inline-block;
+    border-right: 1px solid #4d4d4d;  
+     
+    }
+    .register__item{
+        border-left:1px solid #4d4d4d ;
+    }
+}
+
+a {
+    color: $white;
+    text-decoration: none;
+    margin-left: 8px;
+    margin-right: 8px;
+   
+}
+
+
+ 
+   
+    

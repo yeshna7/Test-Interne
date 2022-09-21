@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;  
+    
+    .navbar-collapse {
+        flex-grow: initial;
+        margin-top: 40px;
+    }
+}
+
+.nav-link{
+    color:$white;
+
+}
+
+
+.navbar-brand{
+    margin-top: 50px;
+}
+
+
+    

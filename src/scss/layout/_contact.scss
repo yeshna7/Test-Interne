@@ -1,0 +1,19 @@
+.contact{
+    padding:30px;
+    align-items: center;
+
+    h2{
+     font-size:30px;   
+    }
+    &__title{
+       text-align:center; 
+    }
+    &__desc{
+        text-align:center; 
+        margin: 0 150px;
+    }
+}
+
+.form-item {
+    margin-bottom: 20px;
+}
