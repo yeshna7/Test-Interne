@@ -1,8 +1,7 @@
 .reference{
     padding: 52px 0 75px ;
-    background: url("../images/background.jpg");
-    width: 100%;
-    height: auto;
+   
+    
     
     background-size: cover;
 
@@ -13,6 +12,7 @@
         color:$white
         
     }
+    
     &__desc{
         text-align: center;
         margin-bottom: 30px;
@@ -29,7 +29,7 @@
      
      .card{
         background-color: $white;
-        width:325px; 
+        
        
 
       
@@ -43,11 +43,20 @@
 }
 .card-text{
     font-size: 13.54px;
-    line-height: 25px;
     padding: 0 0 50px 23px;
 }
+
 }
 
+.overlay{
+    position:absolute;
+    background-color: #01567d;
+    z-index:-1;
+    width:100%;
+   
+
+
+}
 
 
 

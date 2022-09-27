@@ -3,7 +3,12 @@ $colors: (
   black: #000000,
   red: #ff0000,
   blue:#4ec1e0,
-  grey:#959595
+  grey:#959595,
+  offwhite:#ebebeb,
+  green:#7fb618,
+  darkblack:#161b1d
+ 
+
 );
 
 $size: ( 
@@ -30,6 +35,9 @@ $black: map-get($colors, black);
 $red: map-get($colors, red);
 $blue: map-get($colors, blue);
 $grey: map-get($colors, grey);
+$offwhite: map-get($colors, offwhite);
+$green: map-get($colors, green);
+$darkblue: map-get($colors, darkblack);
 $regular: map-get($font-weight, regular);
 
 $Open-sans: 'Open Sans';

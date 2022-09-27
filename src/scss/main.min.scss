@@ -5,12 +5,11 @@
 @import '../custom-bootstrap/functions';
 @import '../custom-bootstrap/variables';
 @import '../custom-bootstrap/mixins';
-@import '../custom-bootstrap/grid';
+@import '../custom-bootstrap/bootstrap-grid';
 @import '../custom-bootstrap/reboot';
-@import '../custom-bootstrap/containers';
+@import '../custom-bootstrap/card';
 @import '../custom-bootstrap/navbar';
 @import '../custom-bootstrap/nav';
-@import '../custom-bootstrap/reboot';
 @import 'helpers/responsive';
 @import 'helpers/generated-sprite';
 
@@ -41,6 +40,9 @@
 @import 'layout/footer';
 @import 'layout/sidebar';
 @import 'layout/navigation';
-@import 'layout/services';
-@import 'layout/reference';
-@import 'layout/contact';
+
+/* block*/
+@import 'block/services';
+@import 'block/reference';
+@import 'block/contact';
+

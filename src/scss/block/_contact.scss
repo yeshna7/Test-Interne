@@ -1,0 +1,46 @@
+.contact {
+    padding: 30px;
+    align-items: center;
+    background-color: $offwhite;
+
+    h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__desc {
+        text-align: center;
+        padding: 0 150px;
+        margin-bottom: 30px;
+    }
+}
+
+.form-item {
+    margin-bottom: 20px;
+
+    &__input {
+        width: 100%;
+        text-align: center;
+        color: $grey;
+        height:44px;
+    }
+}
+
+.btn {
+    padding: 10px 50px;
+}
+
+.btn-success {
+    padding: 12px 70px;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: $green;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    text-transform: uppercase;
+}

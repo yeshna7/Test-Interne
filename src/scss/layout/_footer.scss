@@ -1,3 +1,40 @@
-.footer {
-
+footer {
+background-color: $darkblue;
+padding:30px;
+height:auto;
+color:$grey;
 }
+.footer__item{
+    margin-top:50px;
+}
+.footer__desc{
+    margin-top: 29px;
+}
+
+.footer__nav li{
+    margin-bottom: 20px;
+  
+}
+
+.footer__nav{
+margin-left: 100px;
+}
+.footer__addr{
+    margin-bottom: 35px;
+    
+}
+
+.footer__info{
+    font-size:24px;
+    color:$white;
+    margin-bottom: 27px;
+}
+.footer__email{
+    color:$blue;
+  
+}
+a{
+    margin-left: 0;
+}
+
+
