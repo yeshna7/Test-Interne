@@ -27,12 +27,13 @@
         font-size: 12px;
         margin-bottom: 0;
         margin-left: 10px;
+        padding-right: 9;
         color: $grey;
 
         @include media-breakpoint-up(lg) {
             font-size: 13.54px;
             margin-bottom: 45px;
-            padding-right: 20px;
+            padding-right: 165px;
         }
     }
 

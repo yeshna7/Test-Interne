@@ -15,8 +15,9 @@
         margin-top: 80px;
 
         @include media-breakpoint-up(lg) {
-            font-size: 59px;
-            line-height: 59px;
+            font-family: $Open-sans;
+            font-size: 70px;
+            line-height: 70px;
             margin-top: 146px;
         }
     }
