@@ -6,38 +6,28 @@
     h2 {
         font-size: 18px;
         font-weight: bold;
-       
 
-        
         @include media-breakpoint-up(lg) {
-        font-size: 30px;
-        font-weight: bold;
+            font-size: 30px;
+            font-weight: bold;
         }
-
-
     }
 
     &__title {
         text-align: center;
         margin-bottom: 20px;
-
-        @include media-breakpoint-up(lg) {
-        text-align: center;
-        
-            }
     }
 
     &__desc {
         text-align: center;
-        padding: 0 ;
+        padding: 0;
         margin-bottom: 20px;
-        font-size:12px;
+        font-size: 12px;
 
         @include media-breakpoint-up(lg) {
-            text-align: center;
             padding: 0 170px;
             margin-bottom: 30px;
-            font-size:16px;
+            font-size: 16px;
         }
     }
 }
@@ -49,15 +39,12 @@
         width: 100%;
         text-align: center;
         color: $grey;
-        height:30px;
-        font-size:10px;
+        height: 30px;
+        font-size: 10px;
 
         @include media-breakpoint-up(lg) {
-        width: 100%;
-        text-align: center;
-        color: $grey;
-        height:44px;
-        font-size:14px;
+            height: 44px;
+            font-size: 14px;
         }
     }
 }
@@ -77,14 +64,9 @@
     text-transform: uppercase;
 
     @include media-breakpoint-up(lg) {
-    padding: 12px 70px;
-    font-size: 14px;
-    line-height: 14px;
-    background-color: $green;
-    border: none;
-    border-radius: 5px;
-    color: #ffffff;
-    text-transform: uppercase;
-    margin-bottom: 128px;
-        }
+        padding: 12px 70px;
+        font-size: 14px;
+        line-height: 14px;
+        margin-bottom: 128px;
+    }
 }

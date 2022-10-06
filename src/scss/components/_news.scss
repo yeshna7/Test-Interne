@@ -1,34 +1,38 @@
 .news {
-    padding: 86px 32px;;
-  
+    padding: 86px 32px;
+    ;
 
     &__title {
-        margin-top: 30px;
-        margin-bottom: 20px;
+        margin-top: 62px;
+        margin-bottom: 40px;
         margin-left: 10px;
         font-size: 28px;
+        line-height: 28px;
         color: $blue;
 
         @include media-breakpoint-up(lg) {
             font-size: 30.47px;
             color: $blue;
-            // margin-top:62px;
-            // margin-bottom: 40px;
+            margin-top: 30px;
+            margin-bottom: 25px;
+        }
+
+        @include media-breakpoint-up(xl) {
+            margin-top: 62px;
+            margin-bottom: 40px;
         }
     }
 
     &__desc {
         font-size: 12px;
-         margin-bottom: 0;
+        margin-bottom: 0;
         margin-left: 10px;
         color: $grey;
-        margin-bottom: 25px;
 
         @include media-breakpoint-up(lg) {
             font-size: 13.54px;
-            color: $grey;
-            margin-bottom: 48px;
-          
+            margin-bottom: 45px;
+            padding-right: 20px;
         }
     }
 
@@ -42,7 +46,6 @@
     @include media-breakpoint-up(lg) {
         color: $blue;
         font-size: 14px;
-        font-weight: bold;
     }
 }
 
@@ -53,10 +56,9 @@
         min-width: 100%;
         min-height: 100%;
         object-fit: cover;
-       
-       
     }
-picture{
-    height: 100%;
-}
+
+    picture {
+        height: 100%;
+    }
 }

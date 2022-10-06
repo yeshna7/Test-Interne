@@ -1,40 +1,33 @@
-
 .banner {
     &__desc {
         font-size: 10px;
         color: $white;
 
-        @include media-breakpoint-up(lg){
+        @include media-breakpoint-up(lg) {
             font-size: 18px;
-            color: $white;
         }
-
-
     }
 
-   &__title {
+    &__title {
         font-size: 24px;
         line-height: 24px;
         color: $white;
-        margin-top: 100px;
+        margin-top: 80px;
 
-        @include media-breakpoint-up(lg){
+        @include media-breakpoint-up(lg) {
             font-size: 59px;
             line-height: 59px;
             margin-top: 146px;
         }
     }
 
-    &__content{
+    &__content {
         position: absolute;
         top: 0;
         left: 0;
         bottom: 0;
         right: 0;
         margin: auto;
-        z-index:1;
+        z-index: 1;
     }
 }
-
-
-

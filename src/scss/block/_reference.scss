@@ -9,10 +9,7 @@
         color: $white;
 
         @include media-breakpoint-up(lg) {
-            text-align: center;
-            padding: 25px 0 30px;
             font-size: 30px;
-            color: $white;
         }
     }
 
@@ -22,9 +19,7 @@
         color: $white;
 
         @include media-breakpoint-up(lg) {
-            text-align: center;
             margin-bottom: 30px;
-            color: $white;
         }
     }
 
@@ -33,15 +28,17 @@
         line-height: 30px;
         text-transform: uppercase;
     }
+    &__content{
+        position:relative;
+        z-index: 2;
+    }
 }
 
 .card {
     background-color: $white;
-   
-     margin-bottom: 30px;
+    margin-bottom: 30px;
 
     @include media-breakpoint-up(lg) {
-        background-color: $white;
         margin-bottom: 70px;
     }
 
@@ -49,19 +46,19 @@
         padding: 0 0 20px 18px;
         font-size: 20.31px;
         color: $blue;
+
         @include media-breakpoint-up(lg) {
             padding: 0 0 26px 23px;
-        font-size: 20.31px;
-        color: $blue;
+            font-size: 20.31px;
         }
     }
 
     &__text {
         font-family: $Open-sans;
-        font-size: 16px;
+        font-size: 14px;
         padding: 0 0 25px 18px;
+
         @include media-breakpoint-up(lg) {
-            font-family: $Open-sans;
             font-size: 16px;
             padding: 0 0 30px 23px;
         }
@@ -73,21 +70,27 @@
 
         @include media-breakpoint-up(lg) {
             display: block;
-            width: 100%;
             height: 15rem;
         }
+
+        // @include media-breakpoint-up(md) {
+        //     height: 10rem;
+        // }
     }
 }
 
 .ref__img {
     position: absolute;
-    background-size: cover;
-    z-index: -1;
+    // background-size: cover;
+    z-index: 1;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    bottom: 0;
+
 }
+
 
 .overlay {
     position: absolute;
@@ -106,4 +109,14 @@
     min-width: 100%;
     max-width: inherit;
     object-fit: cover;
+
+     @include media-breakpoint-up(md) {
+    //     position:static;
+    //     top: 0;
+    //     left: 0;
+    //     right: 0;
+    //     bottom: 0;
+    height:100%;
+    width:100%;
+    }
 }
