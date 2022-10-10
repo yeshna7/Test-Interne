@@ -6,11 +6,13 @@ a {
 
 header {
     background: $black;
+    
 }
 
 .register {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 
     &__item {
         color: $white;
@@ -18,11 +20,13 @@ header {
         display: inline-block;
         border-right: 1px solid #4d4d4d;
         margin-left: 10px;
+        height:30px;
     }
 
     &__item1 {
         border-left: 1px solid #4d4d4d;
         border-right: 1px solid #4d4d4d;
+        height:30px;
     }
 
     &__link {

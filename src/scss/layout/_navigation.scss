@@ -1,13 +1,14 @@
 .navbar {
     position: fixed;
     width: 100%;
-    top: 31px;
+    top: 60px;
     left: 0;
     z-index: 3;
 
     @include media-breakpoint-up(lg) {
-        margin-top: 40px;
+        // margin-top: 40px;
         position: fixed;
+      
     }
 
     &__menu {
@@ -40,10 +41,7 @@
         width: 100%;
 
         @include media-breakpoint-up(lg) {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 100%;
+           
         }
     }
 
@@ -53,7 +51,7 @@
 
         @include media-breakpoint-up(lg) {
             display: inline-block;
-            margin-right: 12px;
+            margin-right: 26px;
             font-size: 18px;
         }
     }
@@ -68,16 +66,15 @@
 }
 
 .active {
-    background-color: $blue;
+    background-color: $dull;
     border-radius: 12px;
     color: $white;
     padding: 8px;
 
     @include media-breakpoint-up(lg) {
-        background-color: $blue;
-        border-radius: 15px;
+        border-radius: 10px;
         color: $white;
-        padding: 12px;
+        padding: 8px;
     }
 }
 

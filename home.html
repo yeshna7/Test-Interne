@@ -16,7 +16,7 @@
             <div class="container">
                 <div class="register">
                     <li class="register__item1">
-                        <a href="#" class="register__link1"> <i class="fa fa-mobile "></i>+230 52 93 51 11</a>
+                        <a href="#" class="register__link1"> <span class="fa fa-mobile" style="font-size:16px" ></span> +230 52 93 51 11</a>
                     </li>
                     <li class="register__item">
                         <a href="#" class="register__link">Login </a>
@@ -69,18 +69,20 @@
             <picture>
                 <source media="(min-width: 650px)" srcset="dist/images/banner.png">
                 <source media="(min-width: 430px)" srcset="dist/images/banner.png">
-                <img src="dist/images/banner.png">
+                <img src="dist/images/banner.png " class="image">
             </picture>
         </div>
         <div class="banner__content">
-            <div class="container">
-                <div class="row">
+            <div class="container banner__container">
+                <div class="row banner__row">
                     <div class="col-lg-6">
+                        <div class="banner__contents">
                         <h1 class="banner__title"> L'agence digitale offshore </h1>
                         <p class="banner__desc"> Nous développons pour vous le concept de"boutique digitale" en vous
                             proposant une
                             offre sur measure
                         </p>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -98,7 +100,7 @@
             </div>
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-3 text-center">
+                    <div class="col-md-6 col-xl-3 text-center">
                         <div class="web">
                             <span class="web__pic desk-circle ">
                                 <i class="fa fa-desktop  "></i>
@@ -109,10 +111,10 @@
                                     ctetuer adipiscing elit, sed di
                                     nonummy nibh euismod te. </p>
                             </div>
-                            <a href="#" class="web__info"> Read more>> </a>
+                            <a href="#" class="web__info"> Read more <i class="fa fa-angle-double-right" style="color: #000;"></i> </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-center">
+                    <div class="col-md-6 col-xl-3 ">
                         <div class="web">
                             <span class="web__pic desk-circle ">
                                 <i class="fa fa-desktop"></i>
@@ -123,10 +125,10 @@
                                     ctetuer adipiscing elit, sed di
                                     nonummy nibh euismod te. </p>
                             </div>
-                            <a href="#" class="web__info"> Read more>> </a>
+                            <a href="#" class="web__info"> Read more <i class="fa fa-angle-double-right"  style="color: #000;"></i> </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-center">
+                    <div class="col-md-6 col-xl-3 text-center">
                         <div class="web">
                             <span class="web__pic desk-circle ">
                                 <i class="fa fa-desktop "></i>
@@ -137,10 +139,10 @@
                                     ctetuer adipiscing elit, sed di
                                     nonummy nibh euismod te. </p>
                             </div>
-                            <a href="#" class="web__info"> Read more>> </a>
+                            <a href="#" class="web__info"> Read more <i class="fa fa-angle-double-right" style="color: #000;"></i> </a>
                         </div>
                     </div>
-                    <div class="col-lg-3 text-center">
+                    <div class="col-md-6 col-xl-3 text-center">
                         <div class="web">
                             <span class="web__pic desk-circle">
                                 <i class="fa fa-desktop "></i>
@@ -151,7 +153,7 @@
                                     ctetuer adipiscing elit, sed dis
                                     nonummy nibh euismod te. </p>
                             </div>
-                            <a href="#" class="web__info"> Read more>> </a>
+                            <a href="#" class="web__info"> Read more <i class="fa fa-angle-double-right" style="color: #000;"></i> </a>
                         </div>
                     </div>
                 </div>
@@ -167,7 +169,7 @@
                 <div class="overlay"></div>
             </div>
             <div class="reference__content">
-                <div class="container">
+                <div class="reference__container">
                     <h3 class="reference__title"> Nos Références </h3>
                     <p class="reference__desc"> Lorem ipsum dolor sit amet, coctetuer adipiscing elit, sed di nonnummy
                         nibh euismod te</p>
@@ -186,7 +188,7 @@
                                 <div class="card">
                                     <img src="dist/images/card-2.png" class="card__img">
                                     <div class="card__body">
-                                        <h5 class="card__title">Mouse and keyboard</h5>
+                                        <h5 class="card__title">Mouse and a keyboard</h5>
                                         <p class="card__text">Lorem ipsum dotor sit amet coctetu adipiscing elit</p>
                                     </div>
                                 </div>
@@ -206,31 +208,37 @@
             </div>
         </div>
         <div class="latest-News">
-            <div class="container-full">
-                <div class="row g-0">
-                    <div class="col-lg-6">
+            
+                <div class="latest-News__left">
+                    
                         <picture>
                             <source media="(min-width: 650px)" srcset="dist/images/tablet.png">
                             <source media="(min-width: 430px)" srcset="dist/images/tablet.png">
                             <img src="dist/images/tablet.png" class="latest-News__img">
                         </picture>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="News">
-                            <p class="news__title"> Latest News</p>
-                            <p class="news__desc"> Lorem ipsum dodlor sit amet, eu eius discere per, conceptam
-                                liberavise an
-                                est,
-                                sit quidam volumns conclusionemque et, agm munere electram vel te, zril
-                                pertinacia mel ei. Oratio doming noluisse eos ut, eam invidunt deterruisset ad.
-                                Ne quem esse dissentiet mei, id accusam delicata sed. Pri no regone conclusionemque.
-                                Dice aliquam ex sed.
-                            </p>
-                            <a heref="#" class="news__info"> Read more >> </a>
+                    
+                </div>
+                <div class="latest-News__right">
+                    <div class="container">
+                        <div class="row justify-content-end">
+                            <div class="col-lg-6  ">
+                                <div class="News">
+                                    <p class="news__title"> Latest News</p>
+                                    <p class="news__desc"> Lorem ipsum dodlor sit amet, eu eius discere per, conceptam
+                                        liberavise an
+                                        est,
+                                        sit quidam volumns conclusionemque et, agm munere electram vel te, zril
+                                        pertinacia mel ei. Oratio doming noluisse eos ut, eam invidunt deterruisset ad.
+                                        Ne quem esse dissentiet mei, id accusam delicata sed. Pri no regone conclusionemque.
+                                        Dice aliquam ex sed.
+                                    </p>
+                                    <a heref="#" class="news__info"> Read more <i class="fa fa-angle-double-right"></i> </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
+           
         </div>
         <!--form section-->
         <div class="contact">
@@ -294,6 +302,8 @@
                             </ul>
                         </div>
                     </div>
+
+                    
                 </div>
                 <div class="col-lg-3">
                     <div class="footer1">
@@ -313,7 +323,7 @@
                     <div class="footer2">
                         <p class="footer2__info"> Contacts</p>
                         <div class="footer2__addr">
-                            <p>4th Floor Orbis Court <br>132 St Jean Road <br>Quatre Bornes, Mauritius </p>
+                            <p>4th Floor Orbis Court 132 St Jean Road Quatre Bornes,Mauritius </p>
                         </div>
                         <div class="footer2__contact">
                             <p> Tel: +230 5293 51 11</p>

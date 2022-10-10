@@ -6,16 +6,14 @@ $colors: (
   grey:#959595,
   offwhite:#ebebeb,
   green:#7fb618,
-  darkblack:#161b1d
- 
-
+  darkblack:#161b1d,
+  dull:#3a8092,
+  border:#c7c5c1
 );
-
 $size: ( 
   input-btn-radius: 35px,
   textarea-btn-radius: 10px
 );
-
 $font-weight: (
   extra-light: 200,
   light: 300,
@@ -25,11 +23,8 @@ $font-weight: (
   bold: 700,
   extra-bold: 800
 );
-
- 
 $input-btn-radius: map-get($size, input-btn-radius);
 $textarea-btn-radius: map-get($size, textarea-btn-radius);
-
 $white: map-get($colors, white);
 $black: map-get($colors, black);
 $red: map-get($colors, red);
@@ -38,6 +33,10 @@ $grey: map-get($colors, grey);
 $offwhite: map-get($colors, offwhite);
 $green: map-get($colors, green);
 $darkblue: map-get($colors, darkblack);
+$dull: map-get($colors, dull);
+$border: map-get($colors, border);
 $regular: map-get($font-weight, regular);
-
 $Open-sans: 'Open Sans';
+$open-sans-Bold:'open-sans-Bold';
+$Gothic-Bold: 'Gothic-Bold';
+$Gothic-Regular: 'Gothic-Regular';

@@ -46,6 +46,7 @@
         @include media-breakpoint-up(lg) {
             height: 44px;
             font-size: 14px;
+            border: 1px solid $border;
         }
     }
 }
@@ -60,14 +61,15 @@
     line-height: 10px;
     background-color: $green;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #ffffff;
     text-transform: uppercase;
 
     @include media-breakpoint-up(lg) {
-        padding: 12px 70px;
+        padding: 14px 75px;
         font-size: 14px;
         line-height: 14px;
+        margin-top:25px;
         margin-bottom: 128px;
     }
 }
